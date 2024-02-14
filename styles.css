@@ -1,0 +1,105 @@
+body{
+    background-color: #302e2b;
+}
+.root{
+    display: flex;
+    flex-direction:column-reverse;
+    width: fit-content;
+    margin: auto;
+    position:absolute;
+    top: 3%;
+    left: 28%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.Square{
+    height: 85px;
+    width: 85px;
+    display: flex;
+  
+   
+   
+}
+button{
+    margin: 10%;
+    padding-right: 13%;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    background-color: #D18B47;
+
+}
+.pawn_promotion{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 30vb;
+    z-index: 10000;
+}
+.blurr{
+    filter: blur(5px);
+}
+.black{
+    background-color : #D18B47;
+}
+.white{
+    background-color:#FFCE9E;
+}
+
+.fa-chess-pawn{
+    margin-left: 30%;
+}
+ .fa-chess-rook{
+    margin-left: 20%;
+}
+ .fa-chess-knight{
+    margin-left: 20%;
+}
+ .fa-chess-bishop{
+    margin-left: 30%;
+}
+ .fa-chess-king{
+    margin-left: 20%;
+}
+ .fa-chess-queen{
+    margin-left: 15%;
+}
+i.fa-circle.fa-solid{
+    margin-left: 30%;
+}
+i.fa-circle.fa-regular{
+  position:absolute;
+    z-index: 3;
+    margin-left:0.50% ;
+    justify-self: center;
+    align-self: center;
+}
+.red{
+    background-color: #b31d1d;
+}
+.yellow{
+    background-color: #f7f769;
+}
+
+i{
+     align-self: center;
+}
+h1{
+    align-self: center;
+    justify-self: center;
+    color: whitesmoke
+
+}
+h2{
+    align-self: center;
+    justify-self: center;
+    color: whitesmoke;
+    
+}
